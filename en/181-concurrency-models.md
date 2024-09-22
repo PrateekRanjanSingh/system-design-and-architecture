@@ -15,6 +15,7 @@ language: en
 * threading/multiprocessing, lock-based concurrency
     * protecting critical section vs. performance
     * https://medium.com/@l0coful/database-locks-with-spring-hibernate-and-postgres-33e2293468b4
+    * https://dzone.com/articles/distributed-lock-implementation-with-redis
 * Communicating Sequential Processes (CSP)
 	* Golang or Clojure’s `core.async`. 
 	* process/thread passes data through channels.
