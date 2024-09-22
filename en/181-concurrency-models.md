@@ -14,6 +14,7 @@ language: en
 * Single-threaded - Callbacks, Promises, Observables and async/await: vanilla JS
 * threading/multiprocessing, lock-based concurrency
     * protecting critical section vs. performance
+    * https://medium.com/@l0coful/database-locks-with-spring-hibernate-and-postgres-33e2293468b4
 * Communicating Sequential Processes (CSP)
 	* Golang or Clojure’s `core.async`. 
 	* process/thread passes data through channels.
