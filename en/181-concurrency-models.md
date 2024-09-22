@@ -23,5 +23,7 @@ language: en
 * Actor Model (AM): Elixir, Erlang, Scala
 	* asynchronous by nature, and have location transparency that spans runtimes and machines - if you have a reference (Akka) or PID (Erlang) of an actor, you can message it via mailboxes.
 	* powerful fault tolerance by organizing actors into a supervision hierarchy, and you can handle failures at its exact level of hierarchy.
+ 	* https://www.brianstorti.com/the-actor-model/
 * Software Transactional Memory (STM): Clojure, Haskell
-	* like MVCC or pure functions: commit / abort / retry 
+	* like MVCC or pure functions: commit / abort / retry
+ 	* https://medium.com/@talhof8/software-transactional-memory-a-stairway-to-lock-free-programming-heaven-9ca1f4dce23f 
