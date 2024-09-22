@@ -19,6 +19,7 @@ language: en
 * Communicating Sequential Processes (CSP)
 	* Golang or Clojure’s `core.async`. 
 	* process/thread passes data through channels.
+ 	* https://medium.com/@richardlayte/go-concurrency-and-starbucks-5aa03303655f
 * Actor Model (AM): Elixir, Erlang, Scala
 	* asynchronous by nature, and have location transparency that spans runtimes and machines - if you have a reference (Akka) or PID (Erlang) of an actor, you can message it via mailboxes.
 	* powerful fault tolerance by organizing actors into a supervision hierarchy, and you can handle failures at its exact level of hierarchy.
